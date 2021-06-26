@@ -1,0 +1,172 @@
+.luxroom{
+    color: #4e004e;
+  }
+  .navbar {
+    width: 75vw;
+    /* border: 2px solid blue; */
+    font-size: 1.5em;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 35px;
+  }
+  .furniture, .accessories, .lighting, .outdoor, .outlet, .brand{
+    color: rgb(25, 25, 112);
+  }
+  
+  .home {
+    width: 100vw;
+    height: 600px;
+    /* border: 2px solid red; */
+  }
+  /* .home {
+    background-image: url("pictures/3.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  } */
+  .description{
+    /* border: 2px solid black; */
+    justify-content: center;
+    margin: auto;
+    width: 38%;
+    height: 60%;
+    margin-top: 150px;
+  }
+  .line1{
+    justify-content: center;
+    margin: auto;
+    /* border: 2px solid green; */
+    width: 65%;
+    margin-top: 70px;
+    height: 35px;
+    text-align: center;
+    font-size: 2.25em;
+    color: rgb(129, 19, 49)
+  }
+  .line2{
+    justify-content: center;
+    margin: auto;
+    /* border: 2px solid orange; */
+    width: 65%;
+    height: 35px;
+    text-align: center;
+    font-size: 2.25em;
+    color: rgb(129, 19, 49)
+  }
+  .line3{
+    /* border: 2px solid red; */
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 1.3em;
+    text-align: center;
+  }
+  .line4{
+    /* border: 2px solid blue; */
+    justify-content: center;
+    margin: auto;
+    font-size: 1.3em;
+    text-align: center;
+  }
+  .circle {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    /* padding: 10px; */
+    /* background: #fff; */
+    border: 2px solid rgb(136, 8, 8);
+    text-align: center;
+    font: 18px Arial, sans-serif;
+    justify-content: center;
+    margin: auto;
+    margin-top: 35px;
+  }
+  .discover{
+    padding-top: 24px;
+    color: 	rgb(31, 81, 255);
+    position: relative;
+    top: 35px;
+  }
+  .who{
+    /* border: 2px solid green; */
+    margin-top: 80px;
+    height: 50px;
+    text-align: center;
+    font-size: 2.5em;
+  }
+  .who_1{
+    /* border: 2px solid red; */
+    height: 60px;
+    text-align: center;
+  }
+  .images1{
+    /* border: 2px solid rgb(136, 8, 8); */
+    display: flex;
+  }
+  .images2{
+    /* border: 2px solid green; */
+    display: flex;
+  }
+  .img7{
+    /* border: 2px solid blue; */
+    margin-top: 90px;
+    margin-left: 200px;
+    width: 21%;
+  }
+  .img7_{
+    height: 350px;
+  }
+  .one{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    /* border: 2px solid orange; */
+  }
+  .img6{
+    margin-top: 120px;
+    margin-left: 150px;
+    /* border: 2px solid blue; */
+  }
+  .img6_{
+    height: 180px;
+  }
+  .two{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    /* border: 2px solid orange; */
+  }
+  .img9{
+    /* border: 2px solid blue; */
+    margin-left: 180px;
+  }
+  .img9_{
+    height: 300px;
+  }
+  .three{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    /* border: 2px solid orange; */
+  }
+  .img8{
+    /* border: 2px solid blue; */
+    margin-left: 200px;
+    margin-top: 150px;
+  }
+  .img8_{
+    height: 200px;
+  }
+  .four{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    /* border: 2px solid orange; */
+  }
+  .category{
+    border: 2px solid rgb(190,190,190);
+    height: 500px;
+    margin-top: 50px;
+  }
