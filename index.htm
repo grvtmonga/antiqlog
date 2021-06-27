@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WeboCode</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <script src="java.js"></script>
+  </head>
+  <body>
+    <div class="home">
+      <div class="container">
+        <nav>
+          <div class="navbar">
+            <div class="luxroom">Luxroom</div>
+            <a class="furniture" href="">Furniture </a>
+            <a class="accessories" href="">Accessories</a>
+            <a class="lighting" href="">Lighting</a>
+            <a class="outdoor" href="">Outdoor</a>
+            <a class="outlet" href="">Outlet</a>
+            <a class="brand" href="">Brand</a>
+            <div class="icons">
+              <i class="material-icons">search</i>&nbsp;&nbsp;
+              <i class="material-icons">person</i>&nbsp;&nbsp;
+              <i class="material-icons">lock</i>
+            </div>
+          </div>
+        </nav>
+        <div class="description">
+          <div class="line1">Make Your Indoor</div>
+          <div class="line2">Style Unique</div>
+          <div class="line3">
+            From contemporary to modern taste, interpret your style
+          </div>
+          <div class="line4">
+            with combination of material, shapes and colors of our design
+          </div>
+          <div class="circle">
+            <div>
+              <a class="discover" href="">Discover</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="about">
+      <div class="who">Who We Are</div>
+      <div class="who_1">
+        <div class="line-a">
+          We are people who consider the art of furnishing as a lifestyle. This
+          is why
+        </div>
+        <div class="line-b">
+          we select the best of MAde In Italy by offering you furniture,
+          accessories
+        </div>
+        <div class="line-c">
+          and compliments for your home at unique conditions.
+        </div>
+      </div>
+    </div>
+    <div class="images1">
+      <div class="img7">
+        <img class="img7_" src="./pictures/7.png" alt="" />
+        <div class="one"><a href="">Summer Collection</a></div>
+      </div>
+      <div class="img6">
+        <img class="img6_" src="./pictures/6.png" alt="" />
+        <div class="two"><a href="">Popular Designs</a></div>
+      </div>
+    </div>
+    <div class="images2">
+      <div class="img8">
+        <img class="img8_" src="./pictures/8.png" alt="" />
+        <div class="three"><a href="">Designers</a></div>
+      </div>
+      <div class="img9">
+        <img class="img9_" src="./pictures/9.png" alt="" />
+        <div class="four"><a href="">Kitchen lovers</a></div>
+      </div>
+    </div>
+    <div class="category">
+      <div class="shop_category">Shop By Category</div>
+      <div class="categories">
+        <!-- <div>Furniture</div>
+        <div>Accessories</div>
+        <div>Lighting</div>
+        <div>Outdoor</div>
+        <div>Mattresses</div> -->
+        <div>
+          <!-- <h2>PORTFOLIO</h2> -->
+          <div id="myBtnContainer">
+            <!-- <button class="btn active" onclick="filterSelection('all')"> Show all</button> -->
+            <button class="btn" onclick="filterSelection('furniture')">
+              Furniture
+            </button>
+            <button class="btn" onclick="filterSelection('accessories')">
+              Accessories
+            </button>
+            <button class="btn" onclick="filterSelection('lightning')">
+              Lightning
+            </button>
+            <button class="btn" onclick="filterSelection('outdoor')">
+              Outdoor
+            </button>
+            <button class="btn" onclick="filterSelection('mattresses')">
+              Mattresses
+            </button>
+          </div>
+  
+          <!-- Portfolio Gallery Grid -->
+          <div class="row">
+            <div class="column furniture">
+              <div class="content">
+                <img
+                  src="pictures/furniture(1).png"
+                  alt="furniture"
+                  style="width: 100%"
+                />
+                <!-- <h4>Mountains</h4> -->
+                <!-- <p>Lorem ipsum dolor..</p> -->
+              </div>
+            </div>
+            <div class="column furniture">
+              <div class="content">
+                <img
+                  src="pictures/furniture(2).png"
+                  alt="Lights"
+                  style="width: 100%"
+                />
+                <!-- <h4>Lights</h4> -->
+                <!-- <p>Lorem ipsum dolor..</p> -->
+              </div>
+            </div>
+            <div class="column furniture">
+              <div class="content">
+                <img
+                  src="pictures/furniture(3).png"
+                  alt="furniture"
+                  style="width: 100%"
+                />
+                <!-- <h4>Forest</h4> -->
+                <!-- <p>Lorem ipsum dolor..</p> -->
+              </div>
+            </div>
+            <div class="column furniture">
+              <div class="content">
+                <img
+                  src="pictures/furniture(4).png"
+                  alt="furniture"
+                  style="width: 100%"
+                />
+                <!-- <h4>Forest</h4> -->
+                <!-- <p>Lorem ipsum dolor..</p> -->
+              </div>
+            </div>
+            <div class="column furniture">
+              <div class="content">
+                <img
+                  src="pictures/furniture(5).png"
+                  alt="furniture"
+                  style="width: 100%"
+                />
+                <!-- <h4>Forest</h4> -->
+                <!-- <p>Lorem ipsum dolor..</p> -->
+              </div>
+            </div>
+            <div class="column furniture">
+              <div class="content">
+                <img
+                  src="pictures/furniture(6).png"
+                  alt="furniture"
+                  style="width: 100%"
+                />
+                <!-- <h4>Forest</h4> -->
+                <!-- <p>Lorem ipsum dolor..</p> -->
+              </div>
+            </div>
+  
+            <div class="column accessories">
+              <div class="content">
+                <img
+                  src="pictures/accessories.png"
+                  alt="accessories"
+                  style="width: 100%"
+                />
+                <!-- <h4>Retro</h4> -->
+                <!-- <p>Lorem ipsum dolor..</p> -->
+              </div>
+            </div>
+            <div class="column accessories">
+              <div class="content">
+                <img
+                  src="pictures/accessories (2).png"
+                  alt="accessories"
+                  style="width: 100%"
+                />
+                <!-- <h4>Fast</h4> -->
+                <!-- <p>Lorem ipsum dolor..</p> -->
+              </div>
+            </div>
+            <div class="column accessories">
+              <div class="content">
+                <img
+                  src="pictures/accessories (3).png"
+                  alt="accessories"
+                  style="width: 100%"
+                />
+                <!-- <h4>Classic</h4> -->
+                <!-- <p>Lorem ipsum dolor..</p> -->
+              </div>
+            </div>
+            <div class="column accessories">
+              <div class="content">
+                <img
+                  src="pictures/accessories (4).png"
+                  alt="accessories"
+                  style="width: 100%"
+                />
+                <!-- <h4>Classic</h4> -->
+                <!-- <p>Lorem ipsum dolor..</p> -->
+              </div>
+            </div>
+            <div class="column accessories">
+              <div class="content">
+                <img
+                  src="pictures/accessories (5).png"
+                  alt="accessories"
+                  style="width: 100%"
+                />
+                <!-- <h4>Classic</h4> -->
+                <!-- <p>Lorem ipsum dolor..</p> -->
+              </div>
+            </div>
+            <div class="column accessories">
+              <div class="content">
+                <img
+                  src="pictures/accessories (6).png"
+                  alt="accessories"
+                  style="width: 100%"
+                />
+                <!-- <h4>Classic</h4> -->
+                <!-- <p>Lorem ipsum dolor..</p> -->
+              </div>
+            </div>
+  
+            <div class="column lightning">
+              <div class="content">
+                <img
+                  src="pictures/lightning.png"
+                  alt="lightning"
+                  style="width: 100%"
+                />
+                <!-- <h4>Girl</h4> -->
+                <!-- <p>Lorem ipsum dolor..</p> -->
+              </div>
+            </div>
+            <div class="column lightning">
+              <div class="content">
+                <img
+                  src="pictures/lightning (2).png"
+                  alt="lightning"
+                  style="width: 100%"
+                />
+                <!-- <h4>Man</h4> -->
+                <!-- <p>Lorem ipsum dolor..</p> -->
+              </div>
+            </div>
+            <div class="column lightning">
+              <div class="content">
+                <img
+                  src="pictures/lightning (3).png"
+                  alt="lightning"
+                  style="width: 100%"
+                />
+                <!-- <h4>Woman</h4> -->
+                <!-- <p>Lorem ipsum dolor..</p> -->
+              </div>
+            </div>
+            <div class="column lightning">
+              <div class="content">
+                <img
+                  src="pictures/lightning (4).png"
+                  alt="lightning"
+                  style="width: 100%"
+                />
+                <!-- <h4>Woman</h4> -->
+                <!-- <p>Lorem ipsum dolor..</p> -->
+              </div>
+            </div>
+            <div class="column lightning">
+              <div class="content">
+                <img
+                  src="pictures/lightning (5).png"
+                  alt="lightning"
+                  style="width: 100%"
+                />
+                <!-- <h4>Woman</h4> -->
+                <!-- <p>Lorem ipsum dolor..</p> -->
+              </div>
+            </div>
+            <div class="column lightning">
+              <div class="content">
+                <img
+                  src="pictures/lightning (6).png"
+                  alt="lightning"
+                  style="width: 100%"
+                />
+                <!-- <h4>Woman</h4> -->
+                <!-- <p>Lorem ipsum dolor..</p> -->
+              </div>
+            </div>
+            <div class="column outdoor">
+              <div class="content">
+                <img
+                  src="pictures/outdoor.png"
+                  alt="outdoor"
+                  style="width: 100%"
+                />
+                <!-- <h4>Mountains</h4> -->
+                <!-- <p>Lorem ipsum dolor..</p> -->
+              </div>
+            </div>
+            <div class="column outdoor">
+              <div class="content">
+                <img
+                  src="pictures/outdoor (2).png"
+                  alt="Lights"
+                  style="width: 100%"
+                />
+                <!-- <h4>Lights</h4> -->
+                <!-- <p>Lorem ipsum dolor..</p> -->
+              </div>
+            </div>
+            <div class="column outdoor">
+              <div class="content">
+                <img
+                  src="pictures/outdoor (3).png"
+                  alt="furniture"
+                  style="width: 100%"
+                />
+                <!-- <h4>Forest</h4> -->
+                <!-- <p>Lorem ipsum dolor..</p> -->
+              </div>
+            </div>
+            <div class="column outdoor">
+              <div class="content">
+                <img
+                  src="pictures/outdoor (4).png"
+                  alt="furniture"
+                  style="width: 100%"
+                />
+                <!-- <h4>Forest</h4> -->
+                <!-- <p>Lorem ipsum dolor..</p> -->
+              </div>
+            </div>
+            <div class="column outdoor">
+              <div class="content">
+                <img
+                  src="pictures/outdoor (5).png"
+                  alt="furniture"
+                  style="width: 100%"
+                />
+                <!-- <h4>Forest</h4> -->
+                <!-- <p>Lorem ipsum dolor..</p> -->
+              </div>
+            </div>
+            <div class="column outdoor">
+              <div class="content">
+                <img
+                  src="pictures/outdoor (6).png"
+                  alt="furniture"
+                  style="width: 100%"
+                />
+                <!-- <h4>Forest</h4> -->
+                <!-- <p>Lorem ipsum dolor..</p> -->
+              </div>
+            </div>
+            <div class="column mattresses">
+              <div class="content">
+                <img
+                  src="pictures/mattresses.png"
+                  alt="mattresses"
+                  style="width: 100%"
+                />
+                <!-- <h4>Retro</h4> -->
+                <!-- <p>Lorem ipsum dolor..</p> -->
+              </div>
+            </div>
+            <div class="column mattresses">
+              <div class="content">
+                <img
+                  src="pictures/mattresses (2).png"
+                  alt="mattresses"
+                  style="width: 100%"
+                />
+                <!-- <h4>Fast</h4> -->
+                <!-- <p>Lorem ipsum dolor..</p> -->
+              </div>
+            </div>
+            <div class="column mattresses">
+              <div class="content">
+                <img
+                  src="pictures/mattresses (3).png"
+                  alt="mattresses"
+                  style="width: 100%"
+                />
+                <!-- <h4>Classic</h4> -->
+                <!-- <p>Lorem ipsum dolor..</p> -->
+              </div>
+            </div>
+            <div class="column mattresses">
+              <div class="content">
+                <img
+                  src="pictures/mattresses (4).png"
+                  alt="mattresses"
+                  style="width: 100%"
+                />
+                <!-- <h4>Classic</h4> -->
+                <!-- <p>Lorem ipsum dolor..</p> -->
+              </div>
+            </div>
+            <div class="column mattresses">
+              <div class="content">
+                <img
+                  src="pictures/mattresses (5).png"
+                  alt="mattresses"
+                  style="width: 100%"
+                />
+                <!-- <h4>Classic</h4> -->
+                <!-- <p>Lorem ipsum dolor..</p> -->
+              </div>
+            </div>
+            <div class="column mattresses">
+              <div class="content">
+                <img
+                  src="pictures/mattresses (6).png"
+                  alt="mattresses"
+                  style="width: 100%"
+                />
+                <!-- <h4>Classic</h4> -->
+                <!-- <p>Lorem ipsum dolor..</p> -->
+              </div>
+            </div>
+  
+            <!-- END GRID -->
+          </div>
+      </div>
+      </div>
+    </div>
+    <div class="center">
+      <div class="info1">
+        <div class="heading">
+          Free Shipping In Italy
+        </div>
+        <div class="para">
+          All base UI elements are made using Nested symbols and shared styles that are logically connected with one another
+        </div>
+      </div>
+      <div class="info1">
+        <div class="heading">
+          Best Price Online
+        </div>
+        <div class="para">
+          All base UI elements are made using Nested symbols and shared styles that are logically connected with one another
+        </div>
+      </div>
+      <div class="info1">
+        <div class="heading">
+          Furniture Bomus 2021
+        </div>
+        <div class="para">
+          All base UI elements are made using Nested symbols and shared styles that are logically connected with one another
+        </div>
+      </div>
+    </div>
+    <div class="feedback">
+      <div class="division1">
+        <div class="heading_feedback">
+          We design your space, send us your ideas and we will contact.
+        </div>
+        <div class="content_feedback">
+          Change the colour to match your brand of vision, add your logo, choose your perfect thumbnail,
+        remove the playbar, add speed controls and more increase engegement with CTAs and custom and 
+        screens at your video private and password protected.
+        </div>
+        <div class="lastline_feedback">
+          <a href="">Request Information</a>
+        </div>
+      </div>
+      <div class="division2">
+        <div class="img_feedback">
+          <img src="pictures/15.png" alt="">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
