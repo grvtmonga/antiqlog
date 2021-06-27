@@ -15,7 +15,7 @@
 #name{
     height: 30px;
     width: 400px;
-    font-size: 0.5rem;
+    font-size: 0.5em;
     margin-top: 15px;
 }
 .contact{
@@ -26,7 +26,7 @@
 #contact{
     height: 30px;
     width: 400px;
-    font-size: 0.5rem;
+    font-size: 0.5em;
 }
 .email{
     height: 60px;
@@ -35,7 +35,7 @@
 #email{
     height: 30px;
     width: 400px;
-    font-size: 0.5rem;
+    font-size: 0.5em;
     margin-top: 15px;
 }
 .address{
@@ -45,7 +45,7 @@
 #address{
     height: 150px;
     width: 600px;
-    font-size: 0.5rem;
+    font-size: 0.5em;
     margin-top: 15px;
 }
 .idea{
@@ -55,7 +55,7 @@
 #idea{
     height: 150px;
     width: 600px;
-    font-size: 0.5rem;
+    font-size: 0.5em;
     margin-top: 15px;
 }
 .submit{
