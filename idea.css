@@ -1,0 +1,84 @@
+*{
+    background-color: rgb(240,255,240);
+}
+.heading{
+    /* border: 2px solid red; */
+    text-align: center;
+    margin-top: 50px;
+    font-size: 4em;
+    color: rgb(255,140,0);
+}
+.whole{
+    text-align: center;
+    /* border: 2px solid red; */
+}
+.name{
+    /* border: 2px solid black; */
+    height: 60px;
+    font-size: 2em;
+    /* margin-left: 400px; */
+    /* text-align: center; */
+}
+#name{
+    height: 30px;
+    width: 400px;
+    font-size: 1.2em;
+    margin-top: 15px;
+}
+.contact{
+    /* border: 2px solid black; */
+    height: 60px;
+    font-size: 2em;
+    /* margin-left: 400px; */
+    padding-top: 5px;
+    /* text-align: center; */
+}
+#contact{
+    height: 30px;
+    width: 400px;
+    font-size: 1.2em;
+    /* margin-top: 30px; */
+}
+.email{
+    /* border: 2px solid black; */
+    height: 60px;
+    font-size: 2em;
+    /* margin-left: 450px; */
+    /* text-align: center; */
+}
+#email{
+    height: 30px;
+    width: 400px;
+    font-size: 1.2em;
+    margin-top: 15px;
+}
+.address{
+    /* border: 2px solid black; */
+    height: 180px;
+    font-size: 2em;
+    /* margin-left: 330px; */
+    /* text-align: center; */
+}
+#address{
+    height: 150px;
+    width: 600px;
+    font-size: 1.2em;
+    margin-top: 15px;
+}
+.idea{
+    /* border: 2px solid black; */
+    height: 200px;
+    font-size: 2em;
+    /* margin-left: 320px; */
+    /* text-align: center; */
+}
+#idea{
+    height: 150px;
+    width: 600px;
+    font-size: 1.2em;
+    margin-top: 15px;
+}
+.submit{
+    /* border: 2px solid red; */
+    margin-left: 450px;
+}
