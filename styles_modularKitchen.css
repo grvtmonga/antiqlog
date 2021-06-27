@@ -1,0 +1,19 @@
+*{
+    background-color: rgb(240,255,240);
+}
+.heading{
+    /* border: 2px solid red; */
+    text-align: center;
+    margin-top: 50px;
+    font-size: 4em;
+    color: blueviolet;
+}
+.row1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 55px;
+}
+.row1_img{
+    background-color: white;
+    /* border: 2px solid green; */
+}
